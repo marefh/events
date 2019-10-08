@@ -1,0 +1,43 @@
+body {
+	background-color: #ffbf00;
+	direction: rtl;
+}
+
+.container {
+	margin: auto;
+	max-width: 800px;
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+#logo, 
+#thinking-boy {
+	width: 20%;
+	min-width: 250px;
+	max-width: 300px;
+	display: block;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+}
+
+p, 
+ul,
+pre {
+	color: rgb(85, 80, 80);
+	font-size: 19px;
+}
+
+ul {
+	display: block;
+	margin: auto;
+}
+
+pre {
+	margin-top: 30px;
+	text-align: center;
+	font-family: inherit;
+}
